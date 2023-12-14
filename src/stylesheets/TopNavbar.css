@@ -1,0 +1,26 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav-and-user {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-item {
+    font-family: var(--FONT_FAMILY_SECONDARY);
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: var(--FONT_MEDIUM_DARK);
+    margin: 10px 30px;
+}

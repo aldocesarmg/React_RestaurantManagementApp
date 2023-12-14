@@ -1,6 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import SearchBar from './components/SearchBar';
+import TopNavbar from './components/TopNavbar';
 import LeftNavbar from './components/LeftNavbar';
 
 import './stylesheets/generalStyles.css'
@@ -8,9 +7,9 @@ import './stylesheets/generalStyles.css'
 // fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBox, faBorderAll, faEllipsisVertical, faMagnifyingGlass, faBell } from '@fortawesome/free-solid-svg-icons';
+import { faBox, faBorderAll, faEllipsisVertical, faMagnifyingGlass, faBell, faGripLines } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faBox, faBorderAll, faEllipsisVertical, faMagnifyingGlass, faBell);
+library.add(faBox, faBorderAll, faEllipsisVertical, faMagnifyingGlass, faBell, faGripLines );
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         <LeftNavbar />
       </div>
       <div className='navbar-component'>
-        <Navbar />
+        <TopNavbar />
       </div>
     </div>
   );
