@@ -1,0 +1,20 @@
+.search-box, .search-button {
+    border-style: hidden; 
+    background-color: transparent;
+}
+
+.search-box {
+    font-family: var(--FONT_FAMILY_MAIN);
+    width: 250px;
+}
+
+.button-container {
+    display: inline-block;
+    background-color: var(--BG_COLOR);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input.search-box:focus {
+    outline-width: 0;
+}

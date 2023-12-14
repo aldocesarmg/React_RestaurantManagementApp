@@ -52,7 +52,7 @@ export const topMenuIcons = [
     },
     {
         name: 'Settings',
-        icon: 'fa-solid fa-ellipsis-vertical'
+        icon: 'none'
     },
     {
         name: 'Help',
