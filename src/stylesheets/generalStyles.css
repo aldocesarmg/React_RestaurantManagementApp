@@ -1,0 +1,10 @@
+:root {
+    --BG_COLOR: #f5f6f8;
+    --FONT_LIGHT_DARK: #777c89;
+    --FONT_MEDIUM_DARK: #465265;
+    --FONT_STRONG_DARK: #161616;
+
+    --FONT_FAMILY_MAIN: 'DM Sans', sans-serif;
+    --FONT_FAMILY_SECONDARY: 'Noto Sans Linear A', sans-serif;
+}
+
