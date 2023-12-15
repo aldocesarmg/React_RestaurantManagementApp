@@ -47,21 +47,14 @@ export const leftMenuIcons = [
 
 export const topMenuIcons = [
     {
-        name: 'Management',
-        icon: 'none'
+        name: 'Management'
     },
     {
-        name: 'Settings',
-        icon: 'none'
+        name: 'Settings'
     },
     {
-        name: 'Help',
-        icon: 'none'
-    },
-    {
-        name: 'none',
-        icon: 'fa-solid fa-bell'
-    },
+        name: 'Help'
+    }
 ];
 
 export const dashboardIcons = [

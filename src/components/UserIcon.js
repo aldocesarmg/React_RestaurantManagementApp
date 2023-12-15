@@ -1,5 +1,3 @@
-import '../stylesheets/UserIcon.css'
-
 export default function UserIcon(props) {
     return(
         <div>

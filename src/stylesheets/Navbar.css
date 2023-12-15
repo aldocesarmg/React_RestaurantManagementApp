@@ -1,0 +1,121 @@
+/* NAVBAR ITEM: BOTH TOP AND LEFT */
+.navbar-item {
+    font-family: var(--FONT_FAMILY_MAIN);
+    list-style-type: none;
+}
+
+.top-navbar-item a, .left-navbar-item a, #notification-icon {
+    text-decoration: none;
+    color: var(--FONT_MEDIUM_DARK);
+}
+
+/* TOP NAVBAR ITEM */
+.top-navbar-item a {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 40px;
+}
+
+.top-navbar-item a:hover, #notification-icon:hover  {
+    color: var(--MAIN-COLOR-STRONG);
+}
+
+/* LEFT NAVBAR ITEM */
+.left-navbar-item {
+    font-weight: 600;
+}
+
+.left-navbar-item a {
+    /* margin-left: 10px; */
+}
+
+.left-navbar-item-a {
+    padding: 22px 50px;
+    display: flex;
+}
+
+.left-navbar-fa-icon {
+    width: 60px;
+}
+
+.left-navbar-item-a:hover {
+    background-color: var(--MAIN-COLOR-STRONG);
+    color: var(--BG_COLOR);
+}
+
+/* TOP NAVBAR */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav-and-user {
+    display: flex;
+    align-items: center;
+}
+
+.top-navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+/* SEARCH BAR */
+.search-box, .search-button {
+    border-style: hidden; 
+    background-color: transparent;
+}
+
+.search-box {
+    font-family: var(--FONT_FAMILY_MAIN);
+    width: 250px;
+}
+
+.button-container {
+    display: inline-block;
+    background-color: var(--BG_COLOR);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input.search-box:focus {
+    outline-width: 0;
+}
+
+/* USER ICON */
+.user-icon {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0px 20px;
+}
+
+/* LEFT NAVBAR */
+.left-navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    height: 100px;
+}
+
+.antojitos-logo {
+    width: 220px;
+}
+
+.collapse-button {
+    height: 25px;
+    width: 25px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: var(--MAIN-COLOR-LIGHT);
+    color: var(--FONT_MEDIUM_DARK);
+    opacity: 0.5;
+}
+
+.left-navbar-items {
+    display: flex;
+    flex-flow: column;
+}

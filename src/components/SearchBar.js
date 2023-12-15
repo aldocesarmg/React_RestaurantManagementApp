@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import '../stylesheets/SearchBar.css'
 
 export default function SearchBar() {
     return(
