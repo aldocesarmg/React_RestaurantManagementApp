@@ -4,7 +4,7 @@
     list-style-type: none;
 }
 
-.top-navbar-item a, .left-navbar-item a, #notification-icon {
+.top-navbar-item a, .left-navbar-item a, #NOTIFICATION-ICON {
     text-decoration: none;
     color: var(--FONT_MEDIUM_DARK);
 }
@@ -16,17 +16,13 @@
     margin: 10px 40px;
 }
 
-.top-navbar-item a:hover, #notification-icon:hover  {
+.top-navbar-item a:hover, #NOTIFICATION-ICON:hover  {
     color: var(--MAIN-COLOR-STRONG);
 }
 
 /* LEFT NAVBAR ITEM */
 .left-navbar-item {
     font-weight: 600;
-}
-
-.left-navbar-item a {
-    /* margin-left: 10px; */
 }
 
 .left-navbar-item-a {
@@ -43,8 +39,20 @@
     color: var(--BG_COLOR);
 }
 
+#LOG-OUT-BUTTON {
+    position: absolute;
+    width: 20vw;
+    bottom: 0px;
+    border-top: rgba(119, 124, 137, 0.1) solid 1px;
+}
+
+.left-navbar-bottom {
+    width: 100%;
+}
+
 /* TOP NAVBAR */
 .navbar-container {
+    min-height: 12vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,8 +105,8 @@ input.search-box:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
-    height: 100px;
+    padding: 40px 50px;
+    height: 12vh;
 }
 
 .antojitos-logo {
@@ -119,3 +127,4 @@ input.search-box:focus {
     display: flex;
     flex-flow: column;
 }
+

@@ -1,0 +1,107 @@
+:root {
+    --lifetime-orders-color: 255, 92, 92;
+    --today-orders-color: 0, 170, 108;
+    --today-sale-color: 135, 79, 255;
+    --total-customers-color: 55, 168, 254;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    margin: 50px 50px;
+}
+
+/* General */
+.card {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+}
+
+.card-space {
+    margin-bottom: 50px;
+}
+
+/* Card */
+.imgcard-container {
+    display: flex;
+    padding: 20px 60px 20px 30px;
+}
+
+.imgcard-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.imgcard-title {
+    font-size: 36px;
+}
+
+.lifetime-orders {
+    color: rgb(var(--lifetime-orders-color));
+    background-color: rgba(var(--lifetime-orders-color), 0.15);
+}
+
+.today-orders {
+    color: rgb(var(--today-orders-color));
+    background-color: rgba(var(--today-orders-color), 0.15);
+}
+
+.today-sale {
+    color: rgb(var(--today-sale-color));
+    background-color: rgba(var(--today-sale-color), 0.15);
+}
+
+.total-customers {
+    color: rgb(var(--total-customers-color));
+    background-color: rgba(var(--total-customers-color), 0.15);
+}
+
+/* Cards */
+.dashboard-top-cards-container {
+
+}
+
+.dashboard-top-cards {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+/* Recharts */
+.recharts-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: white;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.recharts-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 70px;
+}
+
+.recharts-title h4 {
+    font-size: 20px;
+}
+
+.recharts-divisor {
+    opacity: 0.1;
+}
+
+.recharts-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}

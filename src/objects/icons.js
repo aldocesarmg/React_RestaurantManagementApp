@@ -38,10 +38,6 @@ export const leftMenuIcons = [
     {
         name: 'Suppliers',
         icon: 'fa-solid fa-user'
-    },
-    {
-        name: 'Log out',
-        icon: 'fa-solid fa-right-from-bracket'
     }
 ];
 
@@ -59,20 +55,28 @@ export const topMenuIcons = [
 
 export const dashboardIcons = [
     {
-        name: 'lifetime orders',
-        icon: 'fa-solid fa-bag-shopping'
+        name: 'lifetime-orders',
+        icon: 'fa-solid fa-bag-shopping',
+        title: '11.5K',
+        description: 'Lifetime orders'
     },
     {
-        name: 'today orders',
-        icon: 'fa-solid fa-store'
+        name: 'today-orders',
+        icon: 'fa-solid fa-store',
+        title: '79',
+        description: 'Today orders'
     },
     {
-        name: 'today sale',
-        icon: 'fa-solid fa-cart-shopping'
+        name: 'today-sale',
+        icon: 'fa-solid fa-cart-shopping',
+        title: '17.3K',
+        description: 'Today sale'
     },
     {
-        name: 'total customer',
-        icon: 'fa-solid fa-users'
+        name: 'total-customers',
+        icon: 'fa-solid fa-users',
+        title: '6K',
+        description: 'Total customers'
     },
 ];
 
